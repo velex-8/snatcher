@@ -13,9 +13,18 @@ con.close()
 color=colorama.Fore
 style=colorama.Style
 print(style.BRIGHT)
+print(f"""{color.MAGENTA}
+ #####
+#     #  #    #   ##   #####  ####  #    # ###### #####
+#        ##   #  #  #    #   #    # #    # #      #    #
+ #####   # #  # #    #   #   #      ###### #####  #    #
+      #  #  # # ######   #   #      #    # #      #####
+#     #  #   ## #    #   #   #    # #    # #      #   #
+ #####   #    # #    #   #    ####  #    # ###### #    #\n\n
+{color.WHITE}""")
 @app.route('/')
 def hello_world():
-	print(color.YELLOW+"[?] VICTIM ENTERED THE MAIN PAGE, WAITING FOR FORWORDING...")
+	print(color.YELLOW+"[?] VICTIM ENTERED THE MAIN PAGE, WAITING FOR FORWARDING...")
 	return render_template("index.html")
 
 

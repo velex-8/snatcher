@@ -1,8 +1,18 @@
 # Snatcher! 
 
-author : [Velex](https://www.instagram.com/velex.8/).
+author : [Velex](https://www.instagram.com/velex.9/).  
 
-***SNATCHER*** is a tool that helps making links snatch someone locati>
+
+***SNATCHER*** is a tool that helps making a web app to steal someone's info (location only for now) 
+
+It's not a very suitable tool for script kiddies, you should know how to deal with **sqlite3  databases**, i recommend to use ***sqlite3*** pkg
+
+There's **no plans** to add **ngrok** or something like that at all, if you have an another way and you want to share it, **DM me**
+
+
+So the only way to get it online for now just by using **port forwarding** and hosting it, i recommend using [replit](https://replit.com/).
+
+
 
 how to run the tool:
 
@@ -18,4 +28,6 @@ how to run the tool:
 
 > things i'll add later (maybe).
 
-* **A GUI option** to the main script that will make it easier for scr>
+* **PHP version** for people have hosting services that support PHP only
+
+* **node js version**
