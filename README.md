@@ -31,3 +31,9 @@ how to run the tool:
 * **PHP version** for people have hosting services that support PHP only
 
 * **node js version**
+
+* **CAMERA SNATCH** Let's see how ugly they're
+
+* **browser and device info**
+
+* **an option to add it like XSS payload**
